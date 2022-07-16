@@ -1,0 +1,112 @@
+body{
+    font-family: 'Joan', serif;
+    margin:0px;
+    padding:0px;
+    background: url('../images/man-g372788457_1280.jpg');
+    color:white;
+}
+.left{
+ 
+ display:inline-block;
+ position:absolute;
+ left:0px;
+ top:10px;
+}
+.left img{
+    width:90px;
+    padding-left: 27px;
+}
+.left div{
+    text-align: center;
+    font-size: medium;
+    color: rgb(254, 45, 45);
+}
+.right{
+    position:absolute;
+    right:0px;
+    top:10px;
+   
+    display:inline-block;
+}
+.mid{
+    
+    display:block;
+    width:70%;
+    margin: 10px auto;
+}
+.navbar{
+    display:inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    display:inline-block;
+    color:white;
+    text-decoration: none;
+    padding: 0px 23px;
+    font-size: larger;
+    
+}
+.navbar li a:hover , .navbar li a.active {
+    text-decoration: underline;
+    color: rgb(27, 241, 131);
+}
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 13px 9px;
+    border-radius: 40px;
+    border-color: rgb(22, 5, 54);
+    cursor: pointer;
+    font-family: 'Joan', serif;
+    font-size: large;
+}
+.btn:hover{
+    background-color:rgb(91, 54, 155) ;
+}
+.container{
+    border:2px solid green;
+    margin: 99px 945px;
+   padding: 9px 60px;
+   height:350px;
+    width:25%;
+    border-radius: 2px;
+    font-size: larger;
+    color: red;
+    background-color: rgb(44, 43, 45);
+}
+.container h3{
+    text-align: center;
+}
+.formgroup input{
+    display: block;
+    width: 100%;
+    margin: 3px;
+    font-size: large;
+    text-align: center;
+    padding: 10px auto;
+    border:2px solid black;
+    font-family: 'Joan', serif;
+}
+.btno{
+    line-height: 10px;
+    display: block;
+    width:50%;
+    margin: 20px auto;
+    background-color: black;
+    color: white;
+    padding: 13px 9px;
+    border-radius: 40px;
+    border-color: rgb(22, 5, 54);
+    cursor: pointer;
+    font-family: 'Joan', serif;
+    font-size: medium;
+}
+.btno:hover{
+    background-color:rgb(255, 0, 0) ;
+}
+   
